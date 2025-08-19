@@ -11,10 +11,10 @@ learned:
 
     mov --- moves something (mov rsi, msg -> moves msg into rsi)
 
-    .bss --- block starting symbol (const)
+    .bss --- block starting symbol reserved (not init)
 
-    .data --- data (not const)
+    .data --- initialized data
 
-    .text --- globals
+    .text --- code
 
     _start --- where start is or where do your code starts
