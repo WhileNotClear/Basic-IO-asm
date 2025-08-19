@@ -1,0 +1,20 @@
+learned:
+    rax --- tells the cpu to do something (0 - get input, 1, write, 60 - exit)
+
+    rdi --- file descriptor (0 - input, 1, write)
+
+    rsi --- where to place string or buffer
+
+    rdx --- the len of string or buffer
+
+    syscall --- calls what rax has
+
+    mov --- moves something (mov rsi, msg -> moves msg into rsi)
+
+    .bss --- block starting symbol (const)
+
+    .data --- data (not const)
+
+    .text --- globals
+
+    _start --- where start is or where do your code starts
